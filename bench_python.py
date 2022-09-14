@@ -34,8 +34,8 @@ benchmarks = {
     "ujson": ujson.loads,
     "orjson": orjson.loads,
     "mashumoro_from_orjson": mashumoro_from_json,
-    "pydantic_from_json": pydantic_from_json,
-    "dacite_from_json": dacite_from_json,
+    "pydantic_from_orjson": pydantic_from_json,
+    "dacite_from_orjson": dacite_from_json,
 }
 
 

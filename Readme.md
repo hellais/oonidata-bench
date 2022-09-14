@@ -39,12 +39,12 @@ Memory: 64 GB 2667 MHz DDR4
   iters/s: 2671.0135498092613
   iters: 1670
   errs: 0
-# pydantic_from_json
+# pydantic_from_orjson
   runtime: 1.3429232999915257
   iters/s: 1243.5557563194698
   iters: 1670
   errs: 0
-# dacite_from_json
+# dacite_from_orjson
   runtime: 19.846701907983515
   iters/s: 84.1449631149157
   iters: 1670
