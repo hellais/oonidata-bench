@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "oonidata-bench"
+version = "0.1.0"
+description = ""
+authors = ["Arturo Filastò <arturo@filasto.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.2"
+mashumaro = "^3.0.4"
+dacite = "^1.6.0"
+orjson = "^3.8.0"
+ujson = "^5.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
